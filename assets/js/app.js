@@ -1,10 +1,4 @@
-// axios.get('https://api.covid19api.com/country/nigeria/status/confirmed/live')
-//   .then((response) => response.data)
-//     .then((res) =>{ 
-//       const currentData =  res[res.length - 1];
 
-//     } )
-//   ;
 
 axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations?country_code=NG')
   .then((response) => response)
